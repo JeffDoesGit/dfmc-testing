@@ -1,0 +1,6 @@
+# Runtime deps for the DFMC measurement harness.
+# analyze/ + tests/ + fixtures/ need only the stdlib + pytest.
+# capture/ + observe/ need playwright (browser capture) and httpx (later probes).
+playwright>=1.44
+httpx>=0.27
+pytest>=8.0
